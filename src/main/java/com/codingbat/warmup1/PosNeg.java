@@ -1,0 +1,11 @@
+package com.codingbat.warmup1;
+
+public class PosNeg {
+    public static boolean posNeg(int a, int b, boolean negative) {
+        if (( a < 0 && b > 0 || a > 0 && b < 0) && !negative){
+            return true;
+        }
+        return (a < 0 && b < 0) && negative;
+    }
+
+}

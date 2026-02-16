@@ -1,8 +1,6 @@
 package com.codingbat;
 
-import com.codingbat.warmup1.MonkeyTrouble;
-import com.codingbat.warmup1.SleepIn;
-import com.codingbat.warmup1.SumDouble;
+import com.codingbat.warmup1.*;
 
 public class TestHarness {
     public static void main(String[] args) {
@@ -24,5 +22,40 @@ public class TestHarness {
         System.out.println(SumDouble.sumDouble(3, 2));
         System.out.println(SumDouble.sumDouble(2, 2));
         System.out.println(SumDouble.sumDouble(-1, 0));
+        //diff21 test
+        System.out.println("diff21 tests: ");
+        System.out.println(Diff21.diff21(19));
+        System.out.println(Diff21.diff21(10));
+        System.out.println(Diff21.diff21(21));
+        //parrotTrouble test
+        System.out.println("parrotTrouble tests: ");
+        System.out.println(ParrotTrouble.parrotTrouble(true,6));
+        System.out.println(ParrotTrouble.parrotTrouble(true,7));
+        System.out.println(ParrotTrouble.parrotTrouble(false,6));
+        //makes10 test
+        System.out.println("makes10 tests: ");
+        System.out.println(Makes10.makes10(9,10));
+        System.out.println(Makes10.makes10(9,9));
+        System.out.println(Makes10.makes10(1,9));
+        //nearHundred test
+        System.out.println("nearHundred tests: ");
+        System.out.println(NearHundred.nearHundred(93));
+        System.out.println(NearHundred.nearHundred(90));
+        System.out.println(NearHundred.nearHundred(89));
+        //posNeg test
+        System.out.println("posNeg tests: ");
+        System.out.println(PosNeg.posNeg(1, -1, false));
+        System.out.println(PosNeg.posNeg(-1, 1, false));
+        System.out.println(PosNeg.posNeg(-4, -5, true));
+        //notString test
+        System.out.println("notString tests: ");
+        System.out.println(NotString.notString("candy"));
+        System.out.println(NotString.notString("x"));
+        System.out.println(NotString.notString("not bad"));
+        //missingChar test
+        System.out.println("missing char tests: ");
+        System.out.println(MissingChar.missingChar("kitten", 1));
+        System.out.println(MissingChar.missingChar("kitten", 0));
+        System.out.println(MissingChar.missingChar("kitten", 4));
     }
 }
