@@ -82,5 +82,30 @@ public class TestHarness {
         System.out.println(Front22.front22("kitten"));
         System.out.println(Front22.front22("Ha"));
         System.out.println(Front22.front22("abc"));
+        //startHi test
+        System.out.println("startHi tests");
+        System.out.println(StartHi.startHi("hi there"));
+        System.out.println(StartHi.startHi("hi"));
+        System.out.println(StartHi.startHi("hello hi"));
+        //icyHot test
+        System.out.println("icyHot tests");
+        System.out.println(IcyHot.icyHot(120, -1));
+        System.out.println(IcyHot.icyHot(-1, 120));
+        System.out.println(IcyHot.icyHot(2, 120));
+        //in1020 test
+        System.out.println("in1020 tests");
+        System.out.println(In1020.in1020(12,99));
+        System.out.println(In1020.in1020(21,12));
+        System.out.println(In1020.in1020(8,99));
+        //hasTeen test
+        System.out.println("hasTeen tests");
+        System.out.println(HasTeen.hasTeen(13,20,10));
+        System.out.println(HasTeen.hasTeen(20,19,10));
+        System.out.println(HasTeen.hasTeen(20,10,13));
+        //loneTeen test
+        System.out.println("loneTeen tests");
+        System.out.println(LoneTeen.loneTeen(13,99));
+        System.out.println(LoneTeen.loneTeen(21,19));
+        System.out.println(LoneTeen.loneTeen(13,13));
     }
 }
