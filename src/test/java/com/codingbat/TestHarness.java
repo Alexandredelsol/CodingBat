@@ -57,5 +57,30 @@ public class TestHarness {
         System.out.println(MissingChar.missingChar("kitten", 1));
         System.out.println(MissingChar.missingChar("kitten", 0));
         System.out.println(MissingChar.missingChar("kitten", 4));
+        //frontBack test
+        System.out.println("frontBack tests: ");
+        System.out.println(FrontBack.frontBack("code"));
+        System.out.println(FrontBack.frontBack("a"));
+        System.out.println(FrontBack.frontBack("ab"));
+        //front3 test
+        System.out.println("front3 tests: ");
+        System.out.println(Front3.front3("Java"));
+        System.out.println(Front3.front3("Chocolate"));
+        System.out.println(Front3.front3("abc"));
+        //backAround test
+        System.out.println("backAround tests");
+        System.out.println(BackAround.backAround("cat"));
+        System.out.println(BackAround.backAround("Hello"));
+        System.out.println(BackAround.backAround("a"));
+        //or35 test
+        System.out.println("or35 tests");
+        System.out.println(Or35.or35(3));
+        System.out.println(Or35.or35(10));
+        System.out.println(Or35.or35(8));
+        //front22 test
+        System.out.println("front22 tests");
+        System.out.println(Front22.front22("kitten"));
+        System.out.println(Front22.front22("Ha"));
+        System.out.println(Front22.front22("abc"));
     }
 }
