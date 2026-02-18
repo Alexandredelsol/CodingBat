@@ -107,5 +107,30 @@ public class TestHarness {
         System.out.println(LoneTeen.loneTeen(13,99));
         System.out.println(LoneTeen.loneTeen(21,19));
         System.out.println(LoneTeen.loneTeen(13,13));
+        //delDel test
+        System.out.println("delDel tests");
+        System.out.println(DelDel.delDel("adelbc"));
+        System.out.println(DelDel.delDel("adelHello"));
+        System.out.println(DelDel.delDel("adedbc"));
+        //mixStart test
+        System.out.println("mixStart tests");
+        System.out.println(MixStart.mixStart("mix snacks"));
+        System.out.println(MixStart.mixStart("pix snacks"));
+        System.out.println(MixStart.mixStart("piz snacks"));
+        //startOz test
+        System.out.println("startOz tests");
+        System.out.println(StartOz.startOz("ozymandias"));
+        System.out.println(StartOz.startOz("bzoo"));
+        System.out.println(StartOz.startOz("oxx"));
+        //intMax test
+        System.out.println("intMax tests");
+        System.out.println(IntMax.intMax(1,2,3));
+        System.out.println(IntMax.intMax(1,3,2));
+        System.out.println(IntMax.intMax(3,2,1));
+        //close10 test
+        System.out.println("close10 tests");
+        System.out.println(Close10.close10(8,13));
+        System.out.println(Close10.close10(13,8));
+        System.out.println(Close10.close10(13,7));
     }
 }
