@@ -1,9 +1,12 @@
 package com.codingbat;
 
+import com.codingbat.string1.*;
 import com.codingbat.warmup1.*;
 
 public class TestHarness {
     public static void main(String[] args) {
+        //warmup-1
+        System.out.println("Warmup-1");
         //sleepIn test
         System.out.println("sleepIn tests: ");
         System.out.println(SleepIn.sleepIn(false, false));
@@ -162,5 +165,32 @@ public class TestHarness {
         System.out.println(EveryNth.everyNth("Miracle", 2));
         System.out.println(EveryNth.everyNth("abcdefg", 2));
         System.out.println(EveryNth.everyNth("abcdefg", 3));
+        // ---------------
+        //String-1
+        //helloName
+        System.out.println("helloName tests");
+        System.out.println(HelloName.helloName("Bob"));
+        System.out.println(HelloName.helloName("Alice"));
+        System.out.println(HelloName.helloName("X"));
+        //makeAbba
+        System.out.println("makeAbba tests");
+        System.out.println(MakeAbba.makeAbba("Hi","Bye"));
+        System.out.println(MakeAbba.makeAbba("Yo","Alice"));
+        System.out.println(MakeAbba.makeAbba("What","Up"));
+        //makeTags
+        System.out.println("makeTags tests");
+        System.out.println(MakesTags.makeTags("i","Yay"));
+        System.out.println(MakesTags.makeTags("i","Hello"));
+        System.out.println(MakesTags.makeTags("city","Yay"));
+        System.out.println("makeOutWord tests");
+        System.out.println(MakeOutWord.makeOutWord("<<>>","Yay"));
+        System.out.println(MakeOutWord.makeOutWord("<<>>","WooHoo"));
+        System.out.println(MakeOutWord.makeOutWord("[[]]","word"));
+        System.out.println("extraEnd tests");
+        System.out.println(ExtraEnd.extraEnd("Hello"));
+        System.out.println(ExtraEnd.extraEnd("ab"));
+        System.out.println(ExtraEnd.extraEnd("Hi"));
+        System.out.println("firstTwo tests");
+
     }
 }
