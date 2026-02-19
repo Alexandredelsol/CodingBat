@@ -29,14 +29,14 @@ public class TestHarness {
         System.out.println(Diff21.diff21(21));
         //parrotTrouble test
         System.out.println("parrotTrouble tests: ");
-        System.out.println(ParrotTrouble.parrotTrouble(true,6));
-        System.out.println(ParrotTrouble.parrotTrouble(true,7));
-        System.out.println(ParrotTrouble.parrotTrouble(false,6));
+        System.out.println(ParrotTrouble.parrotTrouble(true, 6));
+        System.out.println(ParrotTrouble.parrotTrouble(true, 7));
+        System.out.println(ParrotTrouble.parrotTrouble(false, 6));
         //makes10 test
         System.out.println("makes10 tests: ");
-        System.out.println(Makes10.makes10(9,10));
-        System.out.println(Makes10.makes10(9,9));
-        System.out.println(Makes10.makes10(1,9));
+        System.out.println(Makes10.makes10(9, 10));
+        System.out.println(Makes10.makes10(9, 9));
+        System.out.println(Makes10.makes10(1, 9));
         //nearHundred test
         System.out.println("nearHundred tests: ");
         System.out.println(NearHundred.nearHundred(93));
@@ -94,19 +94,19 @@ public class TestHarness {
         System.out.println(IcyHot.icyHot(2, 120));
         //in1020 test
         System.out.println("in1020 tests");
-        System.out.println(In1020.in1020(12,99));
-        System.out.println(In1020.in1020(21,12));
-        System.out.println(In1020.in1020(8,99));
+        System.out.println(In1020.in1020(12, 99));
+        System.out.println(In1020.in1020(21, 12));
+        System.out.println(In1020.in1020(8, 99));
         //hasTeen test
         System.out.println("hasTeen tests");
-        System.out.println(HasTeen.hasTeen(13,20,10));
-        System.out.println(HasTeen.hasTeen(20,19,10));
-        System.out.println(HasTeen.hasTeen(20,10,13));
+        System.out.println(HasTeen.hasTeen(13, 20, 10));
+        System.out.println(HasTeen.hasTeen(20, 19, 10));
+        System.out.println(HasTeen.hasTeen(20, 10, 13));
         //loneTeen test
         System.out.println("loneTeen tests");
-        System.out.println(LoneTeen.loneTeen(13,99));
-        System.out.println(LoneTeen.loneTeen(21,19));
-        System.out.println(LoneTeen.loneTeen(13,13));
+        System.out.println(LoneTeen.loneTeen(13, 99));
+        System.out.println(LoneTeen.loneTeen(21, 19));
+        System.out.println(LoneTeen.loneTeen(13, 13));
         //delDel test
         System.out.println("delDel tests");
         System.out.println(DelDel.delDel("adelbc"));
@@ -124,13 +124,43 @@ public class TestHarness {
         System.out.println(StartOz.startOz("oxx"));
         //intMax test
         System.out.println("intMax tests");
-        System.out.println(IntMax.intMax(1,2,3));
-        System.out.println(IntMax.intMax(1,3,2));
-        System.out.println(IntMax.intMax(3,2,1));
+        System.out.println(IntMax.intMax(1, 2, 3));
+        System.out.println(IntMax.intMax(1, 3, 2));
+        System.out.println(IntMax.intMax(3, 2, 1));
         //close10 test
         System.out.println("close10 tests");
-        System.out.println(Close10.close10(8,13));
-        System.out.println(Close10.close10(13,8));
-        System.out.println(Close10.close10(13,7));
+        System.out.println(Close10.close10(8, 13));
+        System.out.println(Close10.close10(13, 8));
+        System.out.println(Close10.close10(13, 7));
+        //in3050 test
+        System.out.println("in3050 tests");
+        System.out.println(In3050.in3050(30, 31));
+        System.out.println(In3050.in3050(30, 41));
+        System.out.println(In3050.in3050(40, 50));
+        //max1020 test
+        System.out.println("max1020 tests");
+        System.out.println(Max1020.max1020(11, 19));
+        System.out.println(Max1020.max1020(19, 11));
+        System.out.println(Max1020.max1020(11, 9));
+        //stringE test
+        System.out.println("stringE tests");
+        System.out.println(StringE.stringE("Hello"));
+        System.out.println(StringE.stringE("Heelle"));
+        System.out.println(StringE.stringE("Heelele"));
+        //lastDigit test
+        System.out.println("lastDigit tests");
+        System.out.println(LastDigit.lastDigit(7,17));
+        System.out.println(LastDigit.lastDigit(6,17));
+        System.out.println(LastDigit.lastDigit(3,113));
+        //endUp test
+        System.out.println("EndUp tests");
+        System.out.println(EndUp.endUp("Hello"));
+        System.out.println(EndUp.endUp("hi there"));
+        System.out.println(EndUp.endUp("hi"));
+        //everyNth
+        System.out.println("everyNth tests");
+        System.out.println(EveryNth.everyNth("Miracle", 2));
+        System.out.println(EveryNth.everyNth("abcdefg", 2));
+        System.out.println(EveryNth.everyNth("abcdefg", 3));
     }
 }
