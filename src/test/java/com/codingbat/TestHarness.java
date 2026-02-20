@@ -152,9 +152,9 @@ public class TestHarness {
         System.out.println(StringE.stringE("Heelele"));
         //lastDigit test
         System.out.println("lastDigit tests");
-        System.out.println(LastDigit.lastDigit(7,17));
-        System.out.println(LastDigit.lastDigit(6,17));
-        System.out.println(LastDigit.lastDigit(3,113));
+        System.out.println(LastDigit.lastDigit(7, 17));
+        System.out.println(LastDigit.lastDigit(6, 17));
+        System.out.println(LastDigit.lastDigit(3, 113));
         //endUp test
         System.out.println("EndUp tests");
         System.out.println(EndUp.endUp("Hello"));
@@ -174,23 +174,41 @@ public class TestHarness {
         System.out.println(HelloName.helloName("X"));
         //makeAbba
         System.out.println("makeAbba tests");
-        System.out.println(MakeAbba.makeAbba("Hi","Bye"));
-        System.out.println(MakeAbba.makeAbba("Yo","Alice"));
-        System.out.println(MakeAbba.makeAbba("What","Up"));
+        System.out.println(MakeAbba.makeAbba("Hi", "Bye"));
+        System.out.println(MakeAbba.makeAbba("Yo", "Alice"));
+        System.out.println(MakeAbba.makeAbba("What", "Up"));
         //makeTags
         System.out.println("makeTags tests");
-        System.out.println(MakesTags.makeTags("i","Yay"));
-        System.out.println(MakesTags.makeTags("i","Hello"));
-        System.out.println(MakesTags.makeTags("city","Yay"));
+        System.out.println(MakesTags.makeTags("i", "Yay"));
+        System.out.println(MakesTags.makeTags("i", "Hello"));
+        System.out.println(MakesTags.makeTags("city", "Yay"));
         System.out.println("makeOutWord tests");
-        System.out.println(MakeOutWord.makeOutWord("<<>>","Yay"));
-        System.out.println(MakeOutWord.makeOutWord("<<>>","WooHoo"));
-        System.out.println(MakeOutWord.makeOutWord("[[]]","word"));
+        System.out.println(MakeOutWord.makeOutWord("<<>>", "Yay"));
+        System.out.println(MakeOutWord.makeOutWord("<<>>", "WooHoo"));
+        System.out.println(MakeOutWord.makeOutWord("[[]]", "word"));
         System.out.println("extraEnd tests");
         System.out.println(ExtraEnd.extraEnd("Hello"));
         System.out.println(ExtraEnd.extraEnd("ab"));
         System.out.println(ExtraEnd.extraEnd("Hi"));
         System.out.println("firstTwo tests");
-
+        System.out.println(FirstTwo.firstTwo("Hello"));
+        System.out.println(FirstTwo.firstTwo("abcdefg"));
+        System.out.println(FirstTwo.firstTwo("ab"));
+        System.out.println("firstHalf tests");
+        System.out.println(FirstHalf.firstHalf("WooHoo"));
+        System.out.println(FirstHalf.firstHalf("HelloThere"));
+        System.out.println(FirstHalf.firstHalf("abcdef"));
+        System.out.println("withoutEnd tests");
+        System.out.println(WithoutEnd.withoutEnd("Hello"));
+        System.out.println(WithoutEnd.withoutEnd("java"));
+        System.out.println(WithoutEnd.withoutEnd("coding"));
+        System.out.println("comboString tests");
+        System.out.println(ComboString.comboString("Hello","hi"));
+        System.out.println(ComboString.comboString("hi","Hello"));
+        System.out.println(ComboString.comboString("aaa","b"));
+        System.out.println("nonStart tests");
+        System.out.println(NonStart.nonStart("Hello","There"));
+        System.out.println(NonStart.nonStart("java","code"));
+        System.out.println(NonStart.nonStart("shotl","java"));
     }
 }
