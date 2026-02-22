@@ -203,12 +203,32 @@ public class TestHarness {
         System.out.println(WithoutEnd.withoutEnd("java"));
         System.out.println(WithoutEnd.withoutEnd("coding"));
         System.out.println("comboString tests");
-        System.out.println(ComboString.comboString("Hello","hi"));
-        System.out.println(ComboString.comboString("hi","Hello"));
-        System.out.println(ComboString.comboString("aaa","b"));
+        System.out.println(ComboString.comboString("Hello", "hi"));
+        System.out.println(ComboString.comboString("hi", "Hello"));
+        System.out.println(ComboString.comboString("aaa", "b"));
         System.out.println("nonStart tests");
-        System.out.println(NonStart.nonStart("Hello","There"));
-        System.out.println(NonStart.nonStart("java","code"));
-        System.out.println(NonStart.nonStart("shotl","java"));
+        System.out.println(NonStart.nonStart("Hello", "There"));
+        System.out.println(NonStart.nonStart("java", "code"));
+        System.out.println(NonStart.nonStart("shotl", "java"));
+        System.out.println("left2 tests");
+        System.out.println(Left2.left2("Hello"));
+        System.out.println(Left2.left2("java"));
+        System.out.println(Left2.left2("Hi"));
+        System.out.println("right2 tests");
+        System.out.println(Right2.right2("Hello"));
+        System.out.println(Right2.right2("java"));
+        System.out.println(Right2.right2("Hi"));
+        System.out.println("theEnd tests");
+        System.out.println(TheEnd.theEnd("Hello",true));
+        System.out.println(TheEnd.theEnd("Hello",false));
+        System.out.println(TheEnd.theEnd("oh",true));
+        System.out.println("withouEnd2 tests");
+        System.out.println(WithoutEnd2.withouEnd2("Hello"));
+        System.out.println(WithoutEnd2.withouEnd2("abc"));
+        System.out.println(WithoutEnd2.withouEnd2("ab"));
+        System.out.println("middleTwo tests");
+        System.out.println(MiddleTwo.middleTwo("string"));
+        System.out.println(MiddleTwo.middleTwo("code"));
+        System.out.println(MiddleTwo.middleTwo("Practice"));
     }
 }
