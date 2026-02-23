@@ -219,9 +219,9 @@ public class TestHarness {
         System.out.println(Right2.right2("java"));
         System.out.println(Right2.right2("Hi"));
         System.out.println("theEnd tests");
-        System.out.println(TheEnd.theEnd("Hello",true));
-        System.out.println(TheEnd.theEnd("Hello",false));
-        System.out.println(TheEnd.theEnd("oh",true));
+        System.out.println(TheEnd.theEnd("Hello", true));
+        System.out.println(TheEnd.theEnd("Hello", false));
+        System.out.println(TheEnd.theEnd("oh", true));
         System.out.println("withouEnd2 tests");
         System.out.println(WithoutEnd2.withouEnd2("Hello"));
         System.out.println(WithoutEnd2.withouEnd2("abc"));
@@ -230,5 +230,26 @@ public class TestHarness {
         System.out.println(MiddleTwo.middleTwo("string"));
         System.out.println(MiddleTwo.middleTwo("code"));
         System.out.println(MiddleTwo.middleTwo("Practice"));
+        System.out.println("endsLy tests");
+        System.out.println(EndsLy.endsLy("oddly"));
+        System.out.println(EndsLy.endsLy("y"));
+        System.out.println(EndsLy.endsLy("oddy"));
+        System.out.println("nTwice tests");
+        System.out.println(NTwice.nTwice("Hello", 2));
+        System.out.println(NTwice.nTwice("Chocolate", 3));
+        System.out.println(NTwice.nTwice("Chocolate", 1));
+        System.out.println("twoChar tests");
+        System.out.println(TwoChar.twoChar("java", 0));
+        System.out.println(TwoChar.twoChar("java", 2));
+        System.out.println(TwoChar.twoChar("java", 3));
+        System.out.println("middleThree tests");
+        System.out.println(MiddleThree.middleThree("Candy"));
+        System.out.println(MiddleThree.middleThree("and"));
+        System.out.println(MiddleThree.middleThree("solving"));
+        System.out.println("hasBad tests");
+        System.out.println(HasBad.hasBad("badxx"));
+        System.out.println(HasBad.hasBad("xbadxx"));
+        System.out.println(HasBad.hasBad("xxbadxx"));
+
     }
 }
