@@ -250,6 +250,13 @@ public class TestHarness {
         System.out.println(HasBad.hasBad("badxx"));
         System.out.println(HasBad.hasBad("xbadxx"));
         System.out.println(HasBad.hasBad("xxbadxx"));
-
+        System.out.println("atFirst tests");
+        System.out.println(AtFirst.atFirst("hello"));
+        System.out.println(AtFirst.atFirst("hi"));
+        System.out.println(AtFirst.atFirst("h"));
+        System.out.println("lastChars tests");
+        System.out.println(LastChars.lastChars("last","chars"));
+        System.out.println(LastChars.lastChars("yo","java"));
+        System.out.println(LastChars.lastChars("hi",""));
     }
 }
