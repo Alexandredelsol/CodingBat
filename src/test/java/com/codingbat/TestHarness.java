@@ -258,5 +258,9 @@ public class TestHarness {
         System.out.println(LastChars.lastChars("last","chars"));
         System.out.println(LastChars.lastChars("yo","java"));
         System.out.println(LastChars.lastChars("hi",""));
+        System.out.println("conCat tests");
+        System.out.println(ConCat.conCat("avc","cat"));
+        System.out.println(ConCat.conCat("dog","cat"));
+        System.out.println(ConCat.conCat("abc",""));
     }
 }
