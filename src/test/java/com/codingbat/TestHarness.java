@@ -1,5 +1,6 @@
 package com.codingbat;
 
+import com.codingbat.logic1.*;
 import com.codingbat.string1.*;
 import com.codingbat.warmup1.*;
 
@@ -305,27 +306,24 @@ public class TestHarness {
         // ----
         // Logic-1
         System.out.println("cigarParty tests");
-        System.out.println();
-        /*cigarParty(30, false) → false
-cigarParty(50, false) → true
-cigarParty(70, true) → true*/
+        System.out.println(CigarParty.cigarParty(30,false));
+        System.out.println(CigarParty.cigarParty(50,false));
+        System.out.println(CigarParty.cigarParty(70,true));
         System.out.println("dateFashion tests");
-        /*dateFashion(5, 10) → 2
-dateFashion(5, 2) → 0
-dateFashion(5, 5) → 1
-Go*/
+        System.out.println(DateFashion.dateFashion(5,10));
+        System.out.println(DateFashion.dateFashion(5,2));
+        System.out.println(DateFashion.dateFashion(5,5));
         System.out.println("squirrelPlay tests");
-        /*squirrelPlay(70, false) → true
-squirrelPlay(95, false) → false
-squirrelPlay(95, true) → true*/
+        System.out.println(SquirrelPlay.squirrelPlay(70,false));
+        System.out.println(SquirrelPlay.squirrelPlay(95,false));
+        System.out.println(SquirrelPlay.squirrelPlay(90,true));
         System.out.println("caughtSpeeding tests");
-        /*caughtSpeeding(60, false) → 0
-caughtSpeeding(65, false) → 1
-caughtSpeeding(65, true) → 0
-*/
+        System.out.println(CaughtSpeeding.caughtSpeeding(60,false));
+        System.out.println(CaughtSpeeding.caughtSpeeding(65,false));
+        System.out.println(CaughtSpeeding.caughtSpeeding(65,true));
         System.out.println("SortaSum tests");
-        /*sortaSum(3, 4) → 7
-sortaSum(9, 4) → 20
-sortaSum(10, 11) → 21*/
+        System.out.println(SortaSum.sortaSum(3,4));
+        System.out.println(SortaSum.sortaSum(90,4));
+        System.out.println(SortaSum.sortaSum(10,11));
     }
 }
