@@ -6,5 +6,4 @@ public class DelDel {
                 ? str.charAt(0) + str.substring(4)
                 : str;
     }
-
 }

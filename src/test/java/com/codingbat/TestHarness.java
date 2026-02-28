@@ -255,13 +255,13 @@ public class TestHarness {
         System.out.println(AtFirst.atFirst("hi"));
         System.out.println(AtFirst.atFirst("h"));
         System.out.println("lastChars tests");
-        System.out.println(LastChars.lastChars("last","chars"));
-        System.out.println(LastChars.lastChars("yo","java"));
-        System.out.println(LastChars.lastChars("hi",""));
+        System.out.println(LastChars.lastChars("last", "chars"));
+        System.out.println(LastChars.lastChars("yo", "java"));
+        System.out.println(LastChars.lastChars("hi", ""));
         System.out.println("conCat tests");
-        System.out.println(ConCat.conCat("avc","cat"));
-        System.out.println(ConCat.conCat("dog","cat"));
-        System.out.println(ConCat.conCat("abc",""));
+        System.out.println(ConCat.conCat("avc", "cat"));
+        System.out.println(ConCat.conCat("dog", "cat"));
+        System.out.println(ConCat.conCat("abc", ""));
         System.out.println("lastTwo tests");
         System.out.println(LastTwo.lastTwo("coding"));
         System.out.println(LastTwo.lastTwo("cat"));
@@ -275,9 +275,9 @@ public class TestHarness {
         System.out.println(FrontAgain.frontAgain("edit"));
         System.out.println(FrontAgain.frontAgain("ed"));
         System.out.println("minCat tests");
-        System.out.println(MinCat.minCat("Hello","Hi"));
-        System.out.println(MinCat.minCat("Hello","java"));
-        System.out.println(MinCat.minCat("java","Hello"));
+        System.out.println(MinCat.minCat("Hello", "Hi"));
+        System.out.println(MinCat.minCat("Hello", "java"));
+        System.out.println(MinCat.minCat("java", "Hello"));
         System.out.println("extraFront tests");
         System.out.println(ExtraFront.extraFront("HeHeHe"));
         System.out.println(ExtraFront.extraFront("ab"));
@@ -291,16 +291,41 @@ public class TestHarness {
         System.out.println(DeFront.deFront("java"));
         System.out.println(DeFront.deFront("away"));
         System.out.println("startWord tests");
-        System.out.println(StartWord.startWord("hippo","hi"));
-        System.out.println(StartWord.startWord("hippo","xip"));
-        System.out.println(StartWord.startWord("hippo","i"));
+        System.out.println(StartWord.startWord("hippo", "hi"));
+        System.out.println(StartWord.startWord("hippo", "xip"));
+        System.out.println(StartWord.startWord("hippo", "i"));
         System.out.println("withoutX tests");
         System.out.println(WithoutX.withoutX("xHix"));
         System.out.println(WithoutX.withoutX("xHi"));
         System.out.println(WithoutX.withoutX("Hxix"));
-        System.out.println("withoutX2");
+        System.out.println("withoutX2 tests");
         System.out.println(WithoutX2.withoutX2("xHi"));
         System.out.println(WithoutX2.withoutX2("Hxi"));
         System.out.println(WithoutX2.withoutX2("Hi"));
+        // ----
+        // Logic-1
+        System.out.println("cigarParty tests");
+        System.out.println();
+        /*cigarParty(30, false) → false
+cigarParty(50, false) → true
+cigarParty(70, true) → true*/
+        System.out.println("dateFashion tests");
+        /*dateFashion(5, 10) → 2
+dateFashion(5, 2) → 0
+dateFashion(5, 5) → 1
+Go*/
+        System.out.println("squirrelPlay tests");
+        /*squirrelPlay(70, false) → true
+squirrelPlay(95, false) → false
+squirrelPlay(95, true) → true*/
+        System.out.println("caughtSpeeding tests");
+        /*caughtSpeeding(60, false) → 0
+caughtSpeeding(65, false) → 1
+caughtSpeeding(65, true) → 0
+*/
+        System.out.println("SortaSum tests");
+        /*sortaSum(3, 4) → 7
+sortaSum(9, 4) → 20
+sortaSum(10, 11) → 21*/
     }
 }
