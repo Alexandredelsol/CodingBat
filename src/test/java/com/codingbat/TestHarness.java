@@ -373,5 +373,9 @@ public class TestHarness {
         System.out.println(FizzString.fizzString("fig"));
         System.out.println(FizzString.fizzString("dib"));
         System.out.println(FizzString.fizzString("fib"));
+        System.out.println("fizzSting2");
+        System.out.println(FizzString2.fizzString2(1));
+        System.out.println(FizzString2.fizzString2(2));
+        System.out.println(FizzString2.fizzString2(3));
     }
 }
