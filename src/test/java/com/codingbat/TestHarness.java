@@ -373,12 +373,17 @@ public class TestHarness {
         System.out.println(FizzString.fizzString("fig"));
         System.out.println(FizzString.fizzString("dib"));
         System.out.println(FizzString.fizzString("fib"));
-        System.out.println("fizzSting2");
+        System.out.println("fizzSting2 tests");
         System.out.println(FizzString2.fizzString2(1));
         System.out.println(FizzString2.fizzString2(2));
         System.out.println(FizzString2.fizzString2(3));
+        System.out.println("twoasone tests");
         System.out.println(TwoAsOne.twoAsOne(1,2,3));
         System.out.println(TwoAsOne.twoAsOne(3,1,2));
         System.out.println(TwoAsOne.twoAsOne(3,2,2));
+        System.out.println("inOrder tests");
+        System.out.println(InOrder.inOrder(1,2,3,false));
+        System.out.println(InOrder.inOrder(1,2,1,false));
+        System.out.println(InOrder.inOrder(1,1,2,false));
     }
 }
