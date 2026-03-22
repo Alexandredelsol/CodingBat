@@ -153,9 +153,9 @@ public class TestHarness {
         System.out.println(StringE.stringE("Heelele"));
         //lastDigit test
         System.out.println("lastDigit tests");
-        System.out.println(LastDigit.lastDigit(7, 17));
-        System.out.println(LastDigit.lastDigit(6, 17));
-        System.out.println(LastDigit.lastDigit(3, 113));
+        System.out.println(com.codingbat.warmup1.LastDigit.lastDigit(7, 17));
+        System.out.println(com.codingbat.warmup1.LastDigit.lastDigit(6, 17));
+        System.out.println(com.codingbat.warmup1.LastDigit.lastDigit(3, 113));
         //endUp test
         System.out.println("EndUp tests");
         System.out.println(EndUp.endUp("Hello"));
@@ -389,5 +389,9 @@ public class TestHarness {
         System.out.println(InOrderEqual.inOrderEqual(2,5,11,false));
         System.out.println(InOrderEqual.inOrderEqual(2,7,6,false));
         System.out.println(InOrderEqual.inOrderEqual(5,5,7,true));
+        System.out.println("LastDigit tests");
+        System.out.println(LastDigitLogic.lastDigit(23,19,13));
+        System.out.println(LastDigitLogic.lastDigit(23,19,12));
+        System.out.println(LastDigitLogic.lastDigit(23,19,3));
     }
 }
