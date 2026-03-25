@@ -397,5 +397,9 @@ public class TestHarness {
         System.out.println(LessBy10.lessBy10(1,7,11));
         System.out.println(LessBy10.lessBy10(1,7,10));
         System.out.println(LessBy10.lessBy10(11,1,7));
+        System.out.println("WithoutDoubles tests");
+        System.out.println(WithoutDoubles.withoutDoubles(2,3,true));
+        System.out.println(WithoutDoubles.withoutDoubles(3,3,true));
+        System.out.println(WithoutDoubles.withoutDoubles(3,3,false));
     }
 }
