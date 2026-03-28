@@ -401,5 +401,9 @@ public class TestHarness {
         System.out.println(WithoutDoubles.withoutDoubles(2,3,true));
         System.out.println(WithoutDoubles.withoutDoubles(3,3,true));
         System.out.println(WithoutDoubles.withoutDoubles(3,3,false));
+        System.out.println("maxMod5");
+        System.out.println(MaxMod5.maxMod5(2,3));
+        System.out.println(MaxMod5.maxMod5(6,2));
+        System.out.println(MaxMod5.maxMod5(3,2));
     }
 }
