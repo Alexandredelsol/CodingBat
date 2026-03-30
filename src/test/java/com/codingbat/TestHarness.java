@@ -405,5 +405,9 @@ public class TestHarness {
         System.out.println(MaxMod5.maxMod5(2,3));
         System.out.println(MaxMod5.maxMod5(6,2));
         System.out.println(MaxMod5.maxMod5(3,2));
+        System.out.println("redTicket");
+        System.out.println(RedTicket.redTicket(2,2,2));
+        System.out.println(RedTicket.redTicket(2,2,1));
+        System.out.println(RedTicket.redTicket(0,0,0));
     }
 }
