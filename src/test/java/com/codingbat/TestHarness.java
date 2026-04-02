@@ -413,5 +413,8 @@ public class TestHarness {
         System.out.println(GreenTicket.greenTicket(1,2,3));
         System.out.println(GreenTicket.greenTicket(2,2,2));
         System.out.println(GreenTicket.greenTicket(1,1,2));
+        System.out.println(BlueTicket.blueTicket(9,1,0));
+        System.out.println(BlueTicket.blueTicket(9,2,0));
+        System.out.println(BlueTicket.blueTicket(6,1,4));
     }
 }
