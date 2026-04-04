@@ -420,5 +420,9 @@ public class TestHarness {
         System.out.println(ShareDigit.shareDigit(12,23));
         System.out.println(ShareDigit.shareDigit(12,43));
         System.out.println(ShareDigit.shareDigit(12,44));
+        System.out.println("SumLimit");
+        System.out.println(SumLimit.sumLimit(2,3));
+        System.out.println(SumLimit.sumLimit(8,3));
+        System.out.println(SumLimit.sumLimit(8,1));
     }
 }
